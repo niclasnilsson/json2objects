@@ -8,3 +8,4 @@ end
 
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'json2objects'
+require 'objects2json'

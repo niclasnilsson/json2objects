@@ -5,12 +5,17 @@ require 'json'
 require 'facets'
 
 class Json2Objects
-  VERSION = '0.0.2'
+  VERSION = '0.0.3'
 
   def create(json)
     data = JSON.parse(json)
     create_object data
   end
+
+  def to_json(o)
+
+  end
+  
   
   private
   
