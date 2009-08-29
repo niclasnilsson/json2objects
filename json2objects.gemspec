@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{A gem for serializing and deserializing json to objects}
   s.email = ["niclas@niclasnilsson.se"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/json2objects.rb", "script/console", "script/destroy", "script/generate", "spec/json2objects_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake", "test/test_helper.rb", "test/test_json2objects.rb"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/json2objects.rb", "script/console", "script/destroy", "script/generate", "spec/json2objects_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
   s.homepage = %q{http://github.com/#{github_username}/#{project_name}}
   s.post_install_message = %q{PostInstall.txt}
   s.rdoc_options = ["--main", "README.rdoc"]
