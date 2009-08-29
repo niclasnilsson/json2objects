@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{json2objects}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Niclas Nilsson"]
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{A gem for serializing and deserializing json to objects}
   s.email = ["niclas@niclasnilsson.se"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/json2objects.rb", "script/console", "script/destroy", "script/generate", "spec/json2objects_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/json2objects.rb", "lib/objects2json.rb", "script/console", "script/destroy", "script/generate", "spec/json2objects_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
   s.homepage = %q{http://github.com/#{github_username}/#{project_name}}
   s.post_install_message = %q{PostInstall.txt}
   s.rdoc_options = ["--main", "README.rdoc"]
