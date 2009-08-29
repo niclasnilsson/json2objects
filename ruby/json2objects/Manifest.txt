@@ -1,0 +1,16 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/json2objects.rb
+lib/json2objects/json2objects.rb
+script/console
+script/destroy
+script/generate
+spec/json2objects_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
+tasks/rspec.rake
+test/test_helper.rb
+test/test_json2objects.rb
